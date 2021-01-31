@@ -1,0 +1,19 @@
+{
+  "name": "ChildProcess-Puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf output && mkdir output && node src/index.js",
+    "cluster": "rm -rf output && mkdir output && node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "puppeteer-cluster": "^0.22.0",
+    "uuid": "^8.3.2"
+  }
+}
